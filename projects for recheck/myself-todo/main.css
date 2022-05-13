@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow: hidden;
+  font-family: "Mochiy Pop P One", sans-serif;
+  /* background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%; */
+  min-height: 100vh;
+  background-image: repeating-conic-gradient(
+    red 0deg 10deg,
+    yellow 10deg 20deg,
+    blue 20deg 30deg
+  );
+  border-radius: 50%;
+  /* background-image: linear-gradient(150deg, #cf763a, #db4545); */
+  color: #ffffff;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.header__head {
+  margin-top: 10vh;
+  text-align: center;
+}
+.for {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  border: transparent;
+  align-items: center;
+}
+form input {
+  margin-top: 30px;
+  padding: 0.5rem;
+  font-size: 2rem;
+  background: transparent;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 25px;
+}
+.button {
+  display: inline-block;
+  align-items: center;
+  color: #b31515;
+  border: none;
+  width: 10vh;
+  height: 9vh;
+  border-radius: 20px;
+  margin: 0px;
+}
+
+.button:hover {
+  background-color: transparent;
+  transition: 0.5s ease;
+}
+.button:active {
+  transition: 0.3s ease;
+  background: white;
+}
+.todo {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  background-color: transparent;
+  color: black;
+  font-size: 3rem;
+}
+.todoli {
+  padding: 0rem 0.5rem;
+}
+.complete-button {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.complete-button {
+  background: #59eb45;
+}
+.trash-button {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
